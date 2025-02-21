@@ -1,2 +1,28 @@
-# icon-converter-minecraft
-Een website om gemakkelijk een PNG om te zetten naar een minecraft server icoon, de website zet de PNG om naar het formaat 64x64 met de bestandsnaam server-icon.png, dit is het standaart naam en formaat voor een minecraft server icon.
+# Minecraft Icon Converter
+
+Een eenvoudige webapp om een PNG-afbeelding te uploaden en deze om te zetten naar een 64x64 Minecraft server-icon.
+
+## Installatie
+
+1. Clone deze repository:
+    ```bash
+    git clone https://github.com/je-gebruikersnaam/minecraft-icon-converter.git
+    ```
+
+2. Installeer de vereiste Python-pakketten:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3. Start de applicatie:
+    ```bash
+    python app.py
+    ```
+
+De applicatie is nu beschikbaar op `http://127.0.0.1:5000/`.
+
+## Gebruik
+
+1. Ga naar de webapp in je browser.
+2. Upload een PNG-bestand.
+3. Na conversie kun je het server-icon downloaden.
