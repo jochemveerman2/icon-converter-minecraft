@@ -1,11 +1,28 @@
 <!doctype html>
 <html lang="nl">
 <head>
-    <meta charset="UTF-8">
-    <title>Minecraft Icon Converter</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <style>
-        body {
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#28a745" /> 
+  <meta name="description" content="Minecraft Icon Converter - Converteer je PNG-bestand naar een 64x64 server-icon voor Minecraft." />
+  <meta property="og:title" content="Minecraft Icon Converter" />
+  <meta property="og:description" content="Minecraft Icon Converter - Converteer je PNG-bestand naar een 64x64 server-icon voor Minecraft." />
+  <meta property="og:image" content="{{ url_for('static', filename='icon.png') }}" />
+  <meta property="og:url" content="https://iconconverter.jochemveerman.nl/" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:title" content="Minecraft Icon Converter" />
+  <meta name="twitter:description" content="Minecraft Icon Converter - Converteer je PNG-bestand naar een 64x64 server-icon voor Minecraft." />
+  <meta name="twitter:image" content="{{ url_for('static', filename='icon.png') }}" />
+  <title>Minecraft Icon Converter</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="icon" href="{{ url_for('static', filename='icon.png') }}" type="image/png" />
+  <link rel="apple-touch-icon" href="{{ url_for('static', filename='icon.png') }}" />
+  <link rel="icon" sizes="192x192" href="{{ url_for('static', filename='icon.png') }}" />
+  <link rel="icon" sizes="512x512" href="{{ url_for('static', filename='icon.png') }}" />
+  <link rel="icon" href="{{ url_for('static', filename='icon.png') }}">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+          body {
             background-color: #f8f9fa;
         }
         .container {
@@ -25,7 +42,7 @@
         .custom-file-input:lang(nl) ~ .custom-file-label::after {
             content: "Bladeren";
         }
-    </style>
+  </style>
 </head>
 <body>
 <div class="container">
